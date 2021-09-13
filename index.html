@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!-- комментарий в HTML -->
+<!-- в первой строке мы сообщаем браузеру,
+  что это документ HTML5 -->
+
+<html lang="ru">
+
+<head>
+    <title>Название страницы</title>
+</head>
+
+<body>
+
+
+
+    <ul>
+        <li> <a href="http://example.com/">1.Example</a></li>
+        <li> <a href="https://example.com">2.Example</a></li>
+        <li> <a href="ftp://example.com/file">3.Example ftp</a></li>
+        <li><a href="ftp://zxcPORTNOVzxc:papapaj@example.com/file">4.Example FTP</a></li>
+        <li> <a href="http://example.com/prikoli#anekdot">5.Ссылка на фрагмент</a></li>
+        <li> <a href="#ssilka">6.Ссылка на фрагмент страницы</a></li>
+        <li><a href="https://example.com/menu?key=14251267&id=1337">7.2 URL</a></li>
+        <li><a href="https://example.com" title="About">8.About</a></li>
+        <li><a>9.Abobiboba</a></li>
+        <li><a href="">10.Pustota</a></li>
+        <li><a href="https://example.com" rel="nofollow">11.Без перехода</a></li>
+        <li><a href="https://example.com" rel="noindex">12.Без индекса</a></li>
+        <li><p>13.Нажми <a href="//www.example.com" title="Example" target="_blank">меня</a></p></li>
+        <li><a href="https://example.com"><img src="https://i.ytimg.com/vi/cZlLsoUcgr4/maxresdefault.jpg" alt="Papa4" /></a></li>
+        <li>
+            <img src="https://i.ytimg.com/vi/cZlLsoUcgr4/maxresdefault.jpg" usemap="#Papa4" alt="Papa4"> <map name="Papa4">
+                <area alt="Papa4" href="https://example.com" coords="1,1,1" shape="circle">
+                <area alt="Papa4" href="https://example.com" coords="325,25,262,125,388,125" shape="poly">
+            </map>
+        </li>
+        <li><a href="./menu.html" title="Example">16.В каталоге</a></li>
+        <li><a href="./about/menu.html" title="Example">17.About</a></li>
+        <li><a href="../Pivo">18.Уровень выше</a></li>
+        <li><a href="../../Pivo">19.2 уровня выше</a>
+        <li><a href="/">20.Главная</a></li>
+        <li><a href="/menu.html" title="Example" target="_blank">21.Внутренняя</a></li>
+    </ul>
+
+    <form id="contract-form" method="POST" action="/">
+        <label>
+            <input name="Имя"
+                   placeholder="Ваше имя" /><br />
+        </label>
+        <label>
+            <input name="field-email"
+                   placeholder="email"
+                   type="email" /><br />
+        </label>
+        <label><input type="date" /><br /></label>
+        <label>
+            Ваш пол
+            <input type="radio" name="gender" value="male" />Мужской
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female" />Женский
+        </label>
+        <label>
+            <input type="radio" name="gender" value="debil" />Пока не определился
+        </label>
+        <br />
+        Выберите количество конечностей 
+        <label> <input type="radio" name="kone4nosti" value="1" />1 </label>
+        <label> <input type="radio" name="kone4nosti" value="2" />2 </label>
+        <label> <input type="radio" name="kone4nosti" value="3" />3 </label>
+        <label> <input type="radio" name="kone4nosti" value="4" />4 </label>
+        <label> <input type="radio" name="kone4nosti" value="5" />5 и более </label>
+        <br />
+        <label>
+            Выберите свою способность<br />
+            <select name="sposobnosti[]" multiple="multiple">
+                <option value="bessmert">Бессмертие</option>
+                <option value="prohod">Прохождение сквозь стены</option>
+                <option value="letat">Левитация</option>
+            </select>
+        </label><br />
+        <label> Биография <textarea name="Biography"></textarea></label><br />
+        <label><input type="checkbox" />С контрактом ознакомлен(а)</label><br />
+        <button type="submit">Отправить</button>
+    </form>
+
+</body>
+
+</html>
