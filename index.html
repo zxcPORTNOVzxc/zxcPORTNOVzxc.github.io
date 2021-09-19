@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 
-<!-- комментарий в HTML -->
-<!-- в первой строке мы сообщаем браузеру,
-  что это документ HTML5 -->
 
 <html lang="ru">
 
 <head>
-    <title>Название страницы</title>
+<link rel="stylesheet" href="style.css" />
+
 </head>
 
-<body>
+<body style="margin:0;">
+<header>
+<div class="container">
+      <img style="float:left; margin:10px; width:100px; height:100px;" src="logo1.png" alt="Логотип" />
+      <p class="head-text">Украинское <span class="head-text-1">посольство</span></p>
+    </div>
+</header>
+
+	<div class="main">
+<nav>
+<div class="container">
+<a href="/1.html">Ссылка на меню 1</a>   |
+<a href="/2.html">Ссылка 2</a>   |
+<a href="/3.html">Ссылка 3</a>
+</nav>
 
 
 
+	<div class="container">
     <ul>
         <li> <a href="http://example.com/">1.Example</a></li>
         <li> <a href="https://example.com">2.Example</a></li>
@@ -42,6 +55,40 @@
         <li><a href="/">20.Главная</a></li>
         <li><a href="/menu.html">21.Внутренняя</a></li>
     </ul>
+
+
+
+	<table border="1">
+	<tr>
+	<th >Название 1</th>
+	<th >Название 2</th>
+	<th >Название 3</th>
+	</tr>
+	<tr>
+	<td colspan="3">Объединение</td>
+	</tr>
+		<tr>
+	<td>Окно</td>
+	<td>Окно</td>
+	<td>Окно</td>
+	</tr>
+		<tr>
+	<td>Окно</td>
+	<td>Окно</td>
+	<td>Окно</td>
+	</tr>
+		<tr>
+	<td>Окно</td>
+	<td>Окно</td>
+	<td>Окно</td>
+	</tr>
+			<tr>
+	<td>Окно</td>
+	<td>Окно</td>
+	<td>Окно</td>
+	</tr>
+	</table>
+	
 
     <form method="POST" action="/">
         <label>
@@ -84,7 +131,14 @@
         <label><input type="checkbox" />С контрактом ознакомлен(а)</label><br />
         <button type="submit">Отправить</button>
     </form>
+	</div>
+</div>
 
+<footer>
+<div class="container">
+<p class="podvaltext" >(C) Портнов Дмитрий 2021 </p>
+</div>
+</footer>
 </body>
 
 </html>
