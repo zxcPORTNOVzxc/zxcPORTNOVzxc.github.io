@@ -1,0 +1,26 @@
+#popupout {
+	width: 100%;
+	min-height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	position: fixed;
+	top: 0px;
+}
+
+#popupin {
+	width: 600px;
+	padding: 10px;
+	background-color: #4cff00;
+}
+
+#krest {
+	width: 15px;
+	height: 15px;
+	float: right;
+	background-color: white;
+}
+
+form {
+	margin-top: 20px;
+	text-align: center;
+}
