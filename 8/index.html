@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 8</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <button type="button" name="form" onclick="PopUpShow()">Открыть форму</button>
+    <div id="popupout">
+      <div id="popupin">
+        <button type="button" name="back" onclick="PopUpHide()">Назад</button>
+        <form>
+          ФИО:
+          <br>
+          <input id="fio" placeholder="ФИО" >
+          <br><br>
+          E-mail:
+          <br>
+          <input id="email" placeholder="e-mail">
+          <br><br>
+          Сообщение:
+          <br>
+          <textarea id="message" name="mes" placeholder="Сообщение: " rows="8" cols="80"></textarea>
+          <label>
+            <br><br>
+            Cогласен с политикой обработки данных
+            <input type="checkbox" name="check-ok" checked="checked">
+          </label>
+          <br>
+        </form>
+        <div id="result"> </div>
+        <br>
+        <button id="tuda" type="button">Отправить</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+
+  </body>
+</html>
