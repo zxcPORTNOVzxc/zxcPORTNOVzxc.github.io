@@ -18,18 +18,18 @@ function calculate() {
             re.test(secondLot)
         )
     ) {
-        alert("Нужно писать число!");
-    } else if (firstProduct == "") {
-        alert("вы не указали цену 1 товару");
-    } else if (firstLot == "") {
-        alert("вы не указали кол-во 1 товара");
-    } else if (secondProduct == "") {
-        alert("вы не указали цену 2 товару");
-    } else if (secondLot == "") {
-        alert("вы не указали кол-во 2 товара");
-    } else {
-        const cost = firstProduct * firstLot + secondProduct * secondLot;
-        document.getElementById("cost").innerHTML =
-            "Стоимость равна: " + cost + " Руб.";
+          alert("РќСѓР¶РЅРѕ РїРёСЃР°С‚СЊ С‡РёСЃР»Рѕ!");
+  } else if (firstProduct == "") {
+    alert("РІС‹ РЅРµ СѓРєР°Р·Р°Р»Рё С†РµРЅСѓ 1 С‚РѕРІР°СЂСѓ");
+  } else if (firstLot == "") {
+    alert("РІС‹ РЅРµ СѓРєР°Р·Р°Р»Рё РєРѕР»-РІРѕ 1 С‚РѕРІР°СЂР°");
+  } else if (secondProduct == "") {
+    alert("РІС‹ РЅРµ СѓРєР°Р·Р°Р»Рё С†РµРЅСѓ 2 С‚РѕРІР°СЂСѓ");
+  } else if (secondLot == "") {
+    alert("РІС‹ РЅРµ СѓРєР°Р·Р°Р»Рё РєРѕР»-РІРѕ 2 С‚РѕРІР°СЂР°");
+  } else {
+    const cost = firstProduct * firstLot + secondProduct * secondLot;
+    document.getElementById("cost").innerHTML =
+      "РЎС‚РѕРёРјРѕСЃС‚СЊ СЂР°РІРЅР°: " + cost + " Р СѓР±.";
     }
 }
